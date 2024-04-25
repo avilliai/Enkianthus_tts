@@ -25,3 +25,5 @@ ms.tts("你好","阿梓","./data/tb.wav")  #额外传递路径变量(相对)
 #支持异步处理方式
 asyncio.run(ms.asynctts("你好")  )
 ```
+## 最后
+喜欢项目的话可以给个star喵，给个star谢谢喵
