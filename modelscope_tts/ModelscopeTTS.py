@@ -4,7 +4,7 @@ import random
 
 import httpx
 
-class modelscopeTTS:
+class TTS:
     def __init__(self, Cookie):
         self.headers = {
         "Content-Type": "application/json",
