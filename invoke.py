@@ -12,4 +12,4 @@ ms.tts(text="你好",speaker="阿梓")     #使用 阿梓 合成语音
 ms.tts("你好","阿梓","./data/tb.wav")  #额外传递路径变量(相对)
 
 #支持异步处理方式
-asyncio.run(ms.tts("你好")  )
+asyncio.run(ms.asynctts("你好")  )
