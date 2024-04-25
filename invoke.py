@@ -1,3 +1,5 @@
+import asyncio
+
 import modelscope_tts
 
 Cookie="你的Cookie"                   #设置cookie
@@ -8,3 +10,6 @@ print(ms.listSpeakers())             #查看所有可用的角色
 ms.tts("你好")                        #只传text
 ms.tts(text="你好",speaker="阿梓")     #使用 阿梓 合成语音
 ms.tts("你好","阿梓","./data/tb.wav")  #额外传递路径变量(相对)
+
+#支持异步处理方式
+asyncio.run(ms.tts("你好")  )
