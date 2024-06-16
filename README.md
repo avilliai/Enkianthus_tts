@@ -1,4 +1,4 @@
-modelscope unofficial api
+上千个语音合成角色，接口抓取自网络，请勿用于非法用途。
 
 ## 从pip安装
 ```
