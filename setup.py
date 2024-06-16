@@ -3,7 +3,7 @@ with open("README.md", "r",encoding="utf-8") as fh:
     long_description = fh.read()
 setup(
     name='modelscope_tts',
-    version='0.1.4',
+    version='0.1.5',
     url='https://github.com/avilliai/modelscopeTTS',
     author='avillia',
     author_email='larea06@gmail.com',
